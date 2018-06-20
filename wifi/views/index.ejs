@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>wifi</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+    $.ajax({
+      url:'/wifi',
+      type:'post',
+      success:function(data){
+        console.log(data)
+      }
+    })
+  </script>
+  <body>
+  <div></div>
+  </body>
+</html>
